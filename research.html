@@ -1,294 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <title>CREST: 「優しい介護」インタラクションの計算的・脳科学的解明</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="JST CREST Computational Tender-care science project">
-      <meta name="author" content="">
-      <!-- Le styles -->
-      <link href="css/bootstrap.min.css" rel="stylesheet">
-      <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
-      <link href="css/theme.css" rel="stylesheet">
+	<head>
+		<meta charset="utf-8">
+			<title>CREST: 「優しい介護」インタラクションの計算的・脳科学的解明</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<meta name="description" content="JST CREST Computational Tender-care science project">
+					<meta name="author" content="">
+						<!-- Le styles -->
+						<link href="css/bootstrap.min.css" rel="stylesheet">
+							<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+								<link href="css/theme.css" rel="stylesheet">
    </head>
-   <body>
-      <div class="container">
-         <header class="jumbotron subhead" id="overview">
-            <p class="lead"> JST CREST 人間と情報環境の共生インタラクション基盤技術の創出と展開 </p>
-            <h2>「優しい介護」インタラクションの計算的・脳科学的解明</h2>
-         </header>
-<!----------------------------------------------------------------------------------------------------------->	      
-         <div class="masthead">
-            <div class="navbar">
-               <div class="navbar-inner">
-                  <div class="container">
-                     <ul class="nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="people.html">People</a></li>			     
-                        <li class="active"><a href="research.html">Research</a></li>
-                        <li><a href="publications.html">Publications</a></li>      
-                        <li><a href="press.html">Press Release</a></li>                        
-                        <li><a href="links.html">Links</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>	      
-<!------------------------------------------------------------------------------------------>	
-         <div class="row-fluid">
-            <div class="span4 bs-docs-sidebar" id="navparent">
-               <ul class="nav nav-list bs-docs-sidenav" data-spy="affix" data-offset-top="200" data-offset-bottom="260">
-                  <li><a href="#statemet"> プロジェクトの目的 </a></li>
-                  <li><a class="subhead" href="#gaze"> 「見つめる」スキルの解析 </a></li>
-                  <li><a class="subhead" href="#touch"> 「触れる」スキルの解析  </a></li>
-                  <li><a class="subhead" href="#applications"> ユマニチュードの様々な現場への展開 </a></li>
-                  <li><a class="subhead" href="#standing">「立たせる」スキルの解析</a></li>
-                  <li><a class="subhead" href="#training"> ユマニチュードトレーニングシステム </a></li>
-                  <li><a class="subhead" href="#interactionmodel"> インタラクション評価モデルの構築 </a></li>
-               </ul>
-            </div>
-            <div class="span8 offset0">
-               <section id="statemet">
-                  <div class="page-header">
-                     <h3>本プロジェクトの目的</h3>
-                     <p>「優しい介護」技術ユマニチュードに着⽬し
-介護動作をウェアラブルセンサや⼈⼯知能（AI）等を⽤いてスキルの計測を行います．具体的には，
-脳活動計測で「優しい介護」を⾏う際の情認知機構を理解，得られた情報を統合して「優しい介護とは何か」を解明，
-介護のスキルを学べる⼿法やシステムを開発し．また，優しい介護が被介護者に有効かを可視化する技術も併せて開発します．
-また，開発した技術を実際の医療現場や介護現場において計測・実証確認し有効性を検証します．
-					<img src="images/research-organization.jpg">
-                     </p>
-                  </div>
-               </section>
-<!----------------------------------------------------------------------------------------->
-               <section id="gaze">
-                  <div class="page-header">
-                     <h3>「見つめる」スキルの解析</h3>
-                  </div>
-                  <div class="row-fluid">
-                     <div class="span15">
-                        <section id="Volutpat">
-                           <h4>一人称視点映像による顔・顔間の位置関係を用いたスキル評価とスキルの解明</h4>
-                           <br/>
-			介護現場において，ユマニチュードの熟練者と初心者に対して，被介護者との顔間距離や角度の違いを一人称視点映像を使って解析しました．
-			その結果，熟練者はより近くで，また顔の正面方向に向けてケアすることが統計的に明らかになりました．
-                           <img src="images/research-gaze-skill.jpg"/>
-						   <hr>
-                        </section>
-			<section id="Volutpat">
-                           <h4>見るスキル上達の可視化</h4>
-                           <br/>	一人称視点映像を用いて解析した顔間距離，角度を処理し統計解析（主成分分析）することで，ケア初心者・中級者・熟練者のクラスターが明確に分かれることが明らかになりました．また，ケア初心者が訓練を積むことで，ケア熟練者のクラスターに近づくことがわかりました．
-                           <img src="images/research-care-skill-visualization.jpg"/>
-			<hr>
-                        </section>						
-		       <section id="Volutpat">
-                           <h4>ケアインタラクションの解析</h4>
-                           <br/>	ケア場面のビデオ画像を解析し，ケア熟練者と初心者で，被介護者に対してどのようなインタラクションがあるか，またどの程度のインタラクションのやり取りが継続するかを計測しました．その結果，ケア熟練者はインタラクションのやり取りが，初心者の４倍程度まで達することが明らかになりました．
-                           <img src="images/research-careinteraction-analysis.jpg"/>
-			<hr>
-                        </section>
-
-                        <hr>
-<!-------------------------------------------------------------------------------------------->
-               <section id="touch">
-                  <div class="page-header">
-                     <h3>「触れる」スキルの解析</h3>
-                  </div>
-                  <div class="row-fluid">
-                     <div class="span15">
-                        <section id="Volutpat">
-                           <h4>全身触覚センサによる「触れる」スキル解析</h4>
-                           <br/>
-						   エキスパートはより弱い力で被介護者を触れていることを確認しました<br/>
-                           <img src="images/research-touch-sensor.jpg"/>
-						   <hr>
-                        </section>
-						<section id="Volutpat">
-                           <h4>接触による被接触者の感情解析</h4>
-                           <br/>
-							ユマニチュードの手法の方が被験者の感情価・覚醒度・ストレスにおいてよい影響があることがわかりました
-							<br/>
-                           <img src="images/research-touch-emotion.jpg"/>
-							<hr>
-                        </section>
-						<section id="Volutpat">
-                           <h4>優しい「触れる」を再現するロボットハンドの開発</h4>
-                           <br/>
-						   良い触れ方を機械的に再現できるハンドを開発．従来のハンドと比較して快＆不活性をもたらすことを実験的に証明しました
-                          <img src="images/research-touch-robot.jpg"/>
-			<hr>
-                        </section>
-
-                     </div>
-                  </div>
-               </section>
-<!-------------------------------------------------------------------------------------------->
-               <section id="applications">
-                  <div class="page-header">
-                     <h3>ユマニチュードの様々な現場への展開</h3>
-                  </div>
-                  <div class="row-fluid">
-                     <div class="span15">
-                        <section id="Volutpat">
-                           <h4>救急隊員に対する教育介入</h4>
-                           <br/>
-			研修受講者の行動がポジティブに変化することがわかりました
-			<li> 距離が近づいた（平均：859→482）
-			<li> 時間が長くなった（平均：44%→73%） (＋29%)
-			<br/>
-                           <img src="images/research-paramedics-training.jpg"/>
-						   <hr>
-                        </section>
-						<section id="Volutpat">
-                           <h4>自閉症スペクトラム(ASD)親子関係への介入</h4>
-                           <br/>
-			介入の結果，親の行動がポジティブに変化しました．
-			<li>親子のアイコンタクト時間が増加しました
-			<li>親が子供の目線に合わせ子供の目を見る時間が増加しました
-							<br/>
-                           <img src="images/research-asd.jpg"/>
-							<hr>
-										</section>
-                     </div>
-                  </div>
-               </section>
-<!-------------------------------------------------------------------------------------------->
-               <section id="standing">
-                  <div class="page-header">
-                     <h3>「立たせる」スキルの解析</h3>
-                  </div>
-                  <div class="row-fluid">
-                     <div class="span15">
-                        <section id="Volutpat">
-                           <h4>体同士の近接を測るスモッグ型センサ</h4>
-                           <br/>
-			「立たせる」スキルを解析するために32チャンネル （マスク含む）のスモッグ型センサを開発しました．
-			<br/>
-                           <img src="images/research-smog-sensor.jpg"/>
-						   <hr>
-                        </section>
-		       <section id="Volutpat">
-                           <h4>立たせるケアスキルの比較</h4>
-			<br/>
-                           <img src="images/research-skill-standing.jpg"/>
-			<hr>
-                        </section>							
-                        </section>
-		       <section id="Volutpat">
-                           <h4>ユマニチュードと従来の立たせ方の比較</h4>
-			 <br/>
-			ユマニチュードは重心を前方に移動させて立ち上がらせるため独力での立ち上がり動作に近いことがわかりました．</br>
-			ユマニチュードは身体の伸展に寄与する筋の活動が増大し独力での立ち上がりに近づきより自分自身の筋を活用していることがわかりました</br>
-                           <img src="images/research-skill-standing2.jpg"/>
-			<hr>
-                        </section>								
-                     </div>
-                  </div>
-               </section>			   
-<!-------------------------------------------------------------------------------------------->
-               <section id="standing">
-                  <div class="page-header">
-                     <h3>「立たせる」スキルの解析</h3>
-                  </div>
-                  <div class="row-fluid">
-                     <div class="span15">
-                        <section id="Volutpat">
-                           <h4>体同士の近接を測るスモッグ型センサ</h4>
-                           <br/>
-			「立たせる」スキルを解析するために32チャンネル （マスク含む）のスモッグ型センサを開発しました．
-			<br/>
-                           <img src="images/research-smog-sensor.jpg"/>
-						   <hr>
-                        </section>
-			<section id="Volutpat">
-                           <h4>立たせるケアスキルの比較</h4>
-							<br/>
-                           <img src="images/research-skill-standing.jpg"/>
-							<hr>
-			</section>
-                     </div>
-                  </div>	   
-<!-------------------------------------------------------------------------------------------->
-               <section id="training">
-                  <div class="page-header">
-                     <h3>最先端デバイスによるユマニチュードトレーニングシステム</h3>
-                  </div>
-                  <div class="row-fluid">
-                     <div class="span15">
-                        <section id="Volutpat">
-                           <h4>複合現実感(AR) –HMDによる教育システムの構築</h4>
-                           <br/>
-			複合現実感(AR) を用いたトレーニングシステムを開発しました．現在多数の医療・介護系大学で実証実験を実施しています．ARにより物理的スキル（アイコンタクト等）に加え，参加者の共感度(Empathy)も有意に上昇することがわかりました．
-			<br/>
-                           <img src="images/research-ar.jpg"/>					   
-						   <hr>
-                        </section>
-		       <section id="Volutpat">						
-                           <h4>Google Glassによる教育システム</h4>
-                           <br/>
-			Google glassを使った教育システムを構築しました．介護中の介護者が被介護者に対して顔や会話によるコミュニケーションを行っているか、リアルタイムに評価することが可能です．
-			<br/>
-                           <img src="images/research-googleglass.jpg"/>					   
-			<hr>
-                        </section>
-                     </div>
-                  </div>
-<!-------------------------------------------------------------------------------------------->
-               <section id="interactionmodel">
-                  <div class="page-header">
-                     <h3>インタラクション評価モデルの構築</h3>
-                  </div>
-                  <div class="row-fluid">
-                     <div class="span15">
-                        <section id="Volutpat">
-                           <h4>ユマニチュードの5つのステップ、見る、話す、触れる、包括性の可視化システム</h4>
-                           <br/>
-                           <img src="images/research-interaction-visualization.jpg"/>					   
-			<hr>
-                        </section>
-		       <section id="Volutpat">						
-                           <h4>Evidence-based care システムの開発</h4>
-                           <br/>
-                           <img src="images/research-evidence-based-care.jpg"/>					   
-			<hr>
-                        </section>
-		       <section id="Volutpat">						
-                           <h4>ケアインタラクションの評価用の知識APIの開発</h4>
-                           <br/>
-                           <img src="images/research-knowledge-api.jpg"/>					   
-			<hr>
-                        </section>						
-                     </div>
-                  </div>
-               </section>
-               <hr>
-            </div>
-         </div>
-      </div>
+								<body>
+									<div class="container">
+										<header class="jumbotron subhead" id="overview">
+											<p class="lead"> JST CREST 人間と情報環境の共生インタラクション基盤技術の創出と展開 </p>
+											<h2>「優しい介護」インタラクションの計算的・脳科学的解明</h2>
+										</header>
+										<!----------------------------------------------------------------------------------------------------------->
+										<div class="masthead">
+											<div class="navbar">
+												<div class="navbar-inner">
+													<div class="container">
+														<ul class="nav">
+															<li>
+																<a href="index.html">Home</a>
+															</li>
+															<li>
+																<a href="people.html">People</a>
+															</li>
+															<li class="active">
+																<a href="research.html">Research</a>
+															</li>
+															<li>
+																<a href="publications.html">Publications</a>
+															</li>
+															<li>
+																<a href="press.html">Press Release</a>
+															</li>
+															<li>
+																<a href="links.html">Links</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!------------------------------------------------------------------------------------------>
+										<div class="row-fluid">
+											<div class="span3 bs-docs-sidebar" id="navparent">
+												<ul class="nav nav-list bs-docs-sidenav" data-spy="affix" data-offset-top="200" data-offset-bottom="260">
+													<li>
+														<a href="#statemet"> プロジェクトの目的 </a>
+													</li>
+													<li>
+														<a class="subhead" href="#gaze"> 「見つめる」スキルの解析 </a>
+													</li>
+													<li>
+														<a class="subhead" href="#touch"> 「触れる」スキルの解析  </a>
+													</li>
+													<li>
+														<a class="subhead" href="#applications"> ユマニチュードの様々な現場への展開 </a>
+													</li>
+													<li>
+														<a class="subhead" href="#standing">「立たせる」スキルの解析</a>
+													</li>
+													<li>
+														<a class="subhead" href="#training"> ユマニチュードトレーニングシステム </a>
+													</li>
+													<li>
+														<a class="subhead" href="#interactionmodel"> インタラクション評価モデルの構築 </a>
+													</li>
+												</ul>
+											</div>
+											<div class="span8 offset0">
+												<section id="statemet">
+													<div class="page-header">
+														<h3>本プロジェクトの目的</h3>
+														<p>「優しい介護」技術ユマニチュードに着⽬し 介護動作をウェアラブルセンサや⼈⼯知能（AI）等を⽤いてスキルの計測を行います．具体的には， 脳活動計測で「優しい介護」を⾏う際の情認知機構を理解，得られた情報を統合して「優しい介護とは何か」を解明， 介護のスキルを学べる⼿法やシステムを開発し．また，優しい介護が被介護者に有効かを可視化する技術も併せて開発します． また，開発した技術を実際の医療現場や介護現場において計測・実証確認し有効性を検証します．
+														<img src="images/research-organization.jpg">
+														</p>
+													</div>
+												</section>
+												<!------------------------------------------------------------------------------->
+												<section id="gaze">
+													<div class="page-header">
+														<h3>「見つめる」スキルの解析</h3>
+													</div>
+													<div class="row-fluid">
+														<div class="span15">
+															<section id="Volutpat">
+																<h4>一人称視点映像による顔・顔間の位置関係を用いたスキル評価とスキルの解明</h4>
+																<br/> 			介護現場において，ユマニチュードの熟練者と初心者に対して，被介護者との顔間距離や角度の違いを一人称視点映像を使って解析しました． 			その結果，熟練者はより近くで，また顔の正面方向に向けてケアすることが統計的に明らかになりました．
+																<img src="images/research-gaze-skill.jpg"/>
+																<hr>
+															</section>
+															<section id="Volutpat">
+																<h4>見るスキル上達の可視化</h4>
+																<br/>	一人称視点映像を用いて解析した顔間距離，角度を処理し統計解析（主成分分析）することで，ケア初心者・中級者・熟練者のクラスターが明確に分かれることが明らかになりました．また，ケア初心者が訓練を積むことで，ケア熟練者のクラスターに近づくことがわかりました．
+																<img src="images/research-care-skill-visualization.jpg"/>
+																<hr>
+															</section>
+															<section id="Volutpat">
+																<h4>ケアインタラクションの解析</h4>
+																<br/>	ケア場面のビデオ画像を解析し，ケア熟練者と初心者で，被介護者に対してどのようなインタラクションがあるか，またどの程度のインタラクションのやり取りが継続するかを計測しました．その結果，ケア熟練者はインタラクションのやり取りが，初心者の４倍程度まで達することが明らかになりました．
+																<img src="images/research-careinteraction-analysis.jpg"/>
+																<hr>
+															</section>
+															<hr>
+														</div>
+													</div>
+												</section>
+												<!-------------------------------------------------------------------------------------------->
+												<section id="touch">
+													<div class="page-header">
+														<h3>「触れる」スキルの解析</h3>
+													</div>
+													<div class="row-fluid">
+														<div class="span15">
+															<section id="Volutpat">
+																<h4>全身触覚センサによる「触れる」スキル解析</h4>
+																<br/>
+																エキスパートはより弱い力で被介護者を触れていることを確認しました<br/>
+																<img src="images/research-touch-sensor.jpg"/>
+																<hr>
+															</section>
+															<section id="Volutpat">
+																<h4>接触による被接触者の感情解析</h4>
+																<br/>
+																ユマニチュードの手法の方が被験者の感情価・覚醒度・ストレスにおいてよい影響があることがわかりました
+																<br/>
+																<img src="images/research-touch-emotion.jpg"/>
+																<hr>
+															</section>
+															<section id="Volutpat">
+																<h4>優しい「触れる」を再現するロボットハンドの開発</h4>
+																<br/>
+																良い触れ方を機械的に再現できるハンドを開発．従来のハンドと比較して快＆不活性をもたらすことを実験的に証明しました
+																<img src="images/research-touch-robot.jpg"/>
+																<hr>
+															</section>
+														</div>
+													</div>
+												</section>
+												<!-------------------------------------------------------------------------------->
+												<section id="applications">
+													<div class="page-header">
+														<h3>ユマニチュードの様々な現場への展開</h3>
+													</div>
+													<div class="row-fluid">
+														<div class="span15">
+															<section id="Volutpat">
+																<h4>救急隊員に対する教育介入</h4>
+																<br/>
+																研修受講者の行動がポジティブに変化することがわかりました
+																<li> 距離が近づいた（平均：859→482）
+																<li> 時間が長くなった（平均：44%→73%） (＋29%)
+																<br/>
+																<img src="images/research-paramedics-training.jpg"/>
+																<hr>												
+															</section>
+															<section id="Volutpat">
+																<h4>自閉症スペクトラム(ASD)親子関係への介入</h4>
+																<br/>
+																介入の結果，親の行動がポジティブに変化しました．
+																<li>親子のアイコンタクト時間が増加しました
+																<li>親が子供の目線に合わせ子供の目を見る時間が増加しました
+																<br/>
+																<img src="images/research-asd.jpg"/>
+																<hr>
+															</section>
+														</div>
+													</div>
+												</section>
+												<!---------------------------------------------------------------------------------->
+												<section id="standing">
+													<div class="page-header">
+														<h3>「立たせる」スキルの解析</h3>
+													</div>
+													<div class="row-fluid">
+														<div class="span15">
+															<section id="Volutpat">
+																<h4>体同士の近接を測るスモッグ型センサ</h4>
+																<br/>
+																「立たせる」スキルを解析するために32チャンネル （マスク含む）のスモッグ型センサを開発しました．
+																<br/>
+																<img src="images/research-smog-sensor.jpg"/>
+																<hr>
+															</section>
+															<section id="Volutpat">
+																	<h4>立たせるケアスキルの比較</h4>
+																	<br/>
+																	<img src="images/research-skill-standing.jpg"/>
+																	<hr>
+															</section>
+															<section id="Volutpat">
+																<h4>ユマニチュードと従来の立たせ方の比較</h4>
+																<br/>
+																ユマニチュードは重心を前方に移動させて立ち上がらせるため独力での立ち上がり動作に近いことがわかりました．</br>
+																ユマニチュードは身体の伸展に寄与する筋の活動が増大し独力での立ち上がりに近づきより自分自身の筋を活用していることがわかりました</br>
+																<img src="images/research-skill-standing2.jpg"/>
+																<hr>
+															</section>
+														</div>
+													</div>
+												</section>
+												<!------------------------------------------------------------------------------>
+												<section id="training">
+													<div class="page-header">
+														<h3>最先端デバイスによるユマニチュードトレーニングシステム</h3>
+													</div>
+													<div class="row-fluid">
+														<div class="span15">
+															<section id="Volutpat">
+																<h4>複合現実感(AR) –HMDによる教育システムの構築</h4>
+																<br/>複合現実感(AR)を用いたトレーニングシステムを開発しました．現在多数の医療・介護系大学で実証実験を実施しています．ARにより物理的スキル（アイコンタクト等）に加え，参加者の共感度(Empathy)も有意に上昇することがわかりました．
+																<br/>
+																<img src="images/research-ar.jpg"/>
+																<hr>
+															</section>
+															<section id="Volutpat">
+																<h4>Google Glassによる教育システム</h4>
+																<br/>
+																Google glassを使った教育システムを構築しました．介護中の介護者が被介護者に対して顔や会話によるコミュニケーションを行っているか、リアルタイムに評価することが可能です．
+																<br/>
+																<img src="images/research-googleglass.jpg"/>
+																<hr>
+															</section>
+														</div>
+													</div>
+													<!-------------------------------------------------------------------------------------------->
+													<section id="interactionmodel">
+														<div class="page-header">
+															<h3>インタラクション評価モデルの構築</h3>
+														</div>
+														<div class="row-fluid">
+															<div class="span15">
+																<section id="Volutpat">
+																	<h4>ユマニチュードの5つのステップ、見る、話す、触れる、包括性の可視化システム</h4>
+																	<br/>
+																	<img src="images/research-interaction-visualization.jpg"/>
+																	<hr>
+																</section>
+																<section id="Volutpat">
+																	<h4>Evidence-based care システムの開発</h4>
+																	<br/>
+																	<img src="images/research-evidence-based-care.jpg"/>
+																	<hr>
+																</section>
+																<section id="Volutpat">
+																	<h4>ケアインタラクションの評価用の知識APIの開発</h4>
+																	<br/>
+																	<img src="images/research-knowledge-api.jpg"/>
+																</section>
+															</div>
+														</div>
+													</section>
+												</section>
+											</div>
+										</div>
 <!----------------------------------------------------------------------------------------------------------->
-      <footer id="footer">
-		<img src="images/crest.jpg" class="logo"><img src="images/symbiotic.jpg" class="logo"> 
-        <div class="container-fluid">
-            <div class="row-fluid">
-               <div class="span5">
-                  <h3>Contact Information</h3>
-                  <b>Atsushi Nakazawa<br>
-                  nakazawa.atsushi@okayama-u.ac.jp</b>
-                  <a href="mailto:nakazawa.atsushi@okayama-u.ac.jp">Email</a>
-               </div>
-               <div class="span5">
-                  <h3>Address</h3>
-                  Graduate School of Interdisciplinary Science and Engineering in Health Systems, Okayama University<br>
-                  700-8530 Tsushima Naka 3-1-1, Kita-ku, Okayama, Japan<br>
-                  </p>
-               </div>
-            </div>
-         </div>
-      </footer>
-
-      <!-- Javascript files -->
-      <script src="js/jquery-1.9.1.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script> $('#main-carousel').carousel(); </script>
-   </body>
+<hr>
+<footer id="footer">
+	<img src="images/crest.jpg" class="logo"> <img src="images/symbiotic.jpg" class="logo">
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span5">
+				<h3>Contact Information</h3>
+				<b>Atsushi Nakazawa<br>
+				nakazawa.atsushi@okayama-u.ac.jp</b>
+					<a href="mailto:nakazawa.atsushi@okayama-u.ac.jp">Email</a>
+			</div>
+			<div class="span5">
+				<h3>Address</h3>
+				Graduate School of Interdisciplinary Science and Engineering in Health Systems, Okayama University<br>
+				700-8530 Tsushima Naka 3-1-1, Kita-ku, Okayama, Japan<br>
+			</div>
+		</div>
+	</div>
+</footer>
+</div>
+</body>
 </html>
